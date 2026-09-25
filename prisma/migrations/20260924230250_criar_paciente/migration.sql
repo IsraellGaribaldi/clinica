@@ -1,0 +1,16 @@
+-- CreateTable
+CREATE TABLE "Paciente" (
+    "id" SERIAL NOT NULL,
+    "nome" TEXT NOT NULL,
+    "cpf" TEXT NOT NULL,
+    "email" TEXT NOT NULL,
+    "telefone" TEXT NOT NULL,
+
+    CONSTRAINT "Paciente_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateIndex
+CREATE UNIQUE INDEX "Paciente_cpf_key" ON "Paciente"("cpf");
+
+-- CreateIndex
+CREATE UNIQUE INDEX "Paciente_email_key" ON "Paciente"("email");

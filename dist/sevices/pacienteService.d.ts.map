@@ -1,0 +1,1 @@
+{"version":3,"file":"pacienteService.d.ts","sourceRoot":"","sources":["../../src/sevices/pacienteService.ts"],"names":[],"mappings":"AAAA,wBAAsB,MAAM,kBAAK;AACjC,wBAAsB,WAAW,CAAC,EAAE,EAAE,MAAM,iBAAI;AAChD,wBAAsB,SAAS,CAAC,KAAK,EAAE,WAAW,iBAAI;AACtD,wBAAsB,SAAS,CAAC,EAAE,EAAE,MAAM,EAAE,KAAK,EAAE,WAAW,GAAG,QAAQ,CAAI;AAC7E,wBAAsB,OAAO,CAAC,EAAE,EAAE,MAAM,GAAG,IAAI,CAAG"}
